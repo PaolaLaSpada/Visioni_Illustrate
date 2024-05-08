@@ -1,0 +1,1048 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
+    max-width: auto;
+    top: 0;
+    z-index: 1000;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Fauna One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+header p {
+    margin-top: 24px;
+    margin-left: 30px;
+    font-family: "garamond-premier-pro-display", serif;
+    font-style: normal;
+    font-size: 20pt;
+    letter-spacing: 1px;
+    max-width: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 50px;
+    margin-top: 30px;
+    max-width: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav a {
+    color: #9f9f9f;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+.info-home p {
+    display: grid;
+    justify-content: right;
+    margin-top: 25px;
+    line-height: 1.5;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    max-width: auto;
+    margin-right: 20px;
+}
+
+h1,
+h2,
+h3,
+section.inaugurazione p {
+    margin-left: 80px;
+}
+
+.title-home {
+    font-family: "montecatini-pro-normale", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80pt;
+    margin-top: 40px;
+    margin-bottom: -30px;
+    max-width: auto;
+    display: flex;
+    justify-content: left;
+}
+
+.titolo-home {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-bottom: 70px;
+    margin-left: 99px;
+    display: flex;
+    justify-content: left;
+}
+
+.sub-home {
+    font-family: "garamond-premier-pro-caption", serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+section.inaugurazione p {
+    display: flex;
+    align-items: left;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-style: normal;
+    width: 800px;
+}
+
+.card-home {
+    display: grid;
+}
+
+.container-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1100px;
+    gap: 5rem;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.container-card p {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    background-color: black;
+    border-radius: 0 0 20px 20px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.image-home {
+    height: 304px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    width: 100%;
+}
+
+.container-card div:hover {
+    transition: all .3s ease-in;
+    transform: scale(1.05);
+}
+
+.card-home {
+    width: 100%;
+}
+
+/*artisti*/
+
+.titolo-artisti {
+    display: flex;
+    justify-content: center;
+    font-family: "montecatini-pro-normale", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90pt;
+    background-color: #D9D9D9;
+    padding: 160px;
+    margin-top: 0;
+    max-width: auto;
+    margin: 0;
+}
+
+.sub-artisti {
+    font-family: "garamond-premier-pro-caption", serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+    justify-content: left;
+    display: flex;
+    max-width: auto;
+    margin-left: 80px;
+}
+
+section.artisti p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-style: normal;
+    display: flex;
+    justify-content: left;
+    width: 800px;
+    margin-left: 80px;
+}
+
+section.container-cardA div {
+    display: grid;
+    position: relative;
+}
+
+section.container-cardA {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1100px;
+    gap: 5rem;
+    margin: auto;
+    margin-top: 40px;
+}
+
+section.container-cardA img {
+    height: 304px;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.container-cardA div:hover {
+    transition: all .3s ease-in;
+    transform: scale(1.05);
+
+}
+
+span p {
+    margin: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.462);
+    color: white;
+    width: 100%;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    max-width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: 0%;
+}
+
+span p:hover {
+    opacity: 100%;
+    transition: all .2s ease-in;
+}
+
+/*mostra*/
+
+.titolo-mostra {
+    display: flex;
+    justify-content: center;
+    font-family: "montecatini-pro-normale", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90pt;
+    background-color: #D9D9D9;
+    padding: 160px;
+    margin-top: 0;
+    max-width: auto;
+    margin: 0;
+}
+
+.sub-mostra {
+    font-family: "garamond-premier-pro-caption", serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+    justify-content: left;
+    display: flex;
+    max-width: auto;
+    margin-left: 80px;
+}
+
+.testo-mostra {
+    justify-content: left;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-style: normal;
+    width: 600px;
+    margin-left: 80px;
+}
+
+.foto-mostra {
+    height: 800px;
+    margin-top: 20px;
+    width: 30%;
+    border-radius: 150px 0 0 150px;
+    object-fit: cover;
+    margin-top: -1000px;
+}
+
+.image {
+    display: flex;
+    justify-content: right;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/*jeanjullien*/
+
+.titolo-jj {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    font-family: "montecatini-pro-normale", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90pt;
+    padding: 160px;
+    margin-top: 0;
+    padding-top: 100px;
+    padding-bottom: 0;
+    margin-bottom: 60px;
+    margin: 0;
+}
+
+section.jullien p {
+    display: flex;
+    justify-content: right;
+    max-width: auto;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-style: normal;
+    padding-top: 60px;
+}
+
+section.jullien {
+    background-color: #D9D9D9;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 150px;
+    flex-direction: row;
+}
+
+section.card-jj {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 20px;
+    padding: 80px 60px;
+    max-width: auto;
+}
+
+.image-jj {
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+    max-width: auto;
+    border-radius: 10px;
+    opacity: 90%;
+}
+
+.image-jj:hover {
+    opacity: 100%;
+    transition: 0.6s ease;
+}
+
+.card-jj div:hover {
+    transition: all .3s ease-in;
+    transform: scale(1.10);
+}
+
+/*paulblow*/
+
+.titolo-pb {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    font-family: "montecatini-pro-normale", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90pt;
+    padding: 160px;
+    margin-top: 0;
+    padding-top: 100px;
+    padding-bottom: 0;
+    margin-bottom: 60px;
+    margin: 0;
+}
+
+section.paul p {
+    display: flex;
+    justify-content: right;
+    max-width: auto;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-style: normal;
+    font-style: normal;
+    padding-top: 60px;
+}
+
+section.paul {
+    background-color: #D9D9D9;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 150px;
+}
+
+section.card-pb {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 20px;
+    padding: 80px 60px;
+    max-width: auto;
+}
+
+.image-pb {
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+    max-width: auto;
+    border-radius: 10px;
+    opacity: 90%;
+}
+
+.image-pb:hover {
+    opacity: 100%;
+    transition: 0.6s ease;
+}
+
+.card-pb img:hover {
+    transition: all .3s ease-in;
+    transform: scale(1.10);
+}
+
+/*icinori*/
+
+.titolo-icinori {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    font-family: "montecatini-pro-normale", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90pt;
+    padding: 160px;
+    margin-top: 0;
+    padding-top: 100px;
+    padding-bottom: 0;
+    margin-bottom: 60px;
+    margin: 0;
+}
+
+section.icinori p {
+    display: flex;
+    justify-content: right;
+    max-width: auto;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-style: normal;
+    font-style: normal;
+    padding-top: 60px;
+}
+
+section.icinori {
+    background-color: #D9D9D9;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 150px;
+}
+
+section.card-icinori {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 20px;
+    padding: 80px 60px;
+    max-width: auto;
+}
+
+.image-icinori {
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+    max-width: auto;
+    border-radius: 10px;
+    opacity: 90%;
+}
+
+.image-icinori:hover {
+    opacity: 100%;
+    transition: 0.6s ease;
+}
+
+.card-icinori img:hover {
+    transition: all .3s ease-in;
+    transform: scale(1.10);
+}
+
+/*informazioni*/
+.titolo-info {
+    display: flex;
+    justify-content: center;
+    font-family: "montecatini-pro-normale", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90pt;
+    background-color: #D9D9D9;
+    padding: 160px;
+    margin-top: 0;
+    max-width: auto;
+    margin: 0;
+}
+
+.sub-info {
+    display: flex;
+    justify-content: left;
+    font-family: "garamond-premier-pro-caption", serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    max-width: auto;
+}
+
+.laboratorio p {
+    display: flex;
+    justify-content: left;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-style: normal;
+    width: 800px;
+    margin-left: 80px;
+}
+
+.informazioni p {
+    display: flex;
+    justify-content: left;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-style: normal;
+    width: 800px;
+    margin-left: 80px;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+iframe {
+    margin: 0;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    max-width: auto;
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    font-family: "Fauna One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+footer p {
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer nav ul a:hover {
+    color: rgb(110, 110, 110);
+}
+
+/*immagini interattive*/
+
+body.lb-disable-scrolling {
+    overflow: hidden;
+}
+
+.lightboxOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: black;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    opacity: 0.8;
+    display: none;
+}
+
+.lightbox {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    text-align: center;
+    line-height: 0;
+    font-weight: normal;
+    outline: none;
+}
+
+.lightbox .lb-image {
+    display: block;
+    height: auto;
+    max-width: inherit;
+    max-height: none;
+    border-radius: 3px;
+
+    /* Image border */
+    border: 4px solid white;
+}
+
+.lightbox a img {
+    border: none;
+}
+
+.lb-outerContainer {
+    position: relative;
+    zoom: 1;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 4px;
+
+    /* Background color behind image.
+       This is visible during transitions. */
+    background-color: white;
+}
+
+.lb-outerContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.lb-loader {
+    position: absolute;
+    top: 43%;
+    left: 0;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+}
+
+.lb-cancel {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    background: url(../img/loading.gif) no-repeat;
+}
+
+.lb-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+.lb-container>.nav {
+    left: 0;
+}
+
+.lb-nav a {
+    outline: none;
+    background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+}
+
+.lb-prev,
+.lb-next {
+    height: 100%;
+    cursor: pointer;
+    display: block;
+}
+
+.lb-nav a.lb-prev {
+    width: 34%;
+    left: 0;
+    float: left;
+    background: url(../img/prev.png) left 48% no-repeat;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity 0.6s;
+    -moz-transition: opacity 0.6s;
+    -o-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+}
+
+.lb-nav a.lb-prev:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+
+.lb-nav a.lb-next {
+    width: 64%;
+    right: 0;
+    float: right;
+    background: url(../img/next.png) right 48% no-repeat;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity 0.6s;
+    -moz-transition: opacity 0.6s;
+    -o-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+}
+
+.lb-nav a.lb-next:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+
+.lb-dataContainer {
+    margin: 0 auto;
+    padding-top: 5px;
+    zoom: 1;
+    width: 100%;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.lb-dataContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.lb-data {
+    padding: 0 4px;
+    color: #ccc;
+}
+
+.lb-data .lb-details {
+    width: 85%;
+    float: left;
+    text-align: left;
+    line-height: 1.1em;
+}
+
+.lb-data .lb-caption {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.lb-data .lb-caption a {
+    color: #4ae;
+}
+
+.lb-data .lb-number {
+    display: block;
+    clear: left;
+    padding-bottom: 1em;
+    font-size: 12px;
+    color: #999999;
+}
+
+.lb-data .lb-close {
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    background: url(../img/close.png) top right no-repeat;
+    text-align: right;
+    outline: none;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+    opacity: 0.7;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+.lb-data .lb-close:hover {
+    cursor: pointer;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+
+@media screen and (max-width:1000px) {
+    .image {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    header p {
+        font-size: 22px;
+        max-width: 100%;
+        margin-left: 10px;
+    }
+
+    .info-home p {
+        max-width: 100%;
+        margin-right: 10px;
+        margin-bottom: 70px;
+    }
+
+    .title-home {
+        max-width: 100%;
+        margin: 20px;
+        font-size: 80px;
+    }
+
+    .titolo-home {
+        max-width: 100%;
+        margin: 30px;
+        margin-top: -20px;
+    }
+
+    .sub-home {
+        max-width: 100%;
+        margin: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    section.inaugurazione p {
+        max-width: 400px;
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    .container-card {
+        gap: 40px;
+        max-width: 80%;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .titolo-artisti {
+        max-width: 100%;
+        padding: 60px;
+        font-size: 80px;
+    }
+
+    .sub-artisti {
+        max-width: 100%;
+        margin: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    section.artisti p {
+        max-width: 400px;
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    section.container-cardA {
+        max-width: 80%;
+        gap: 40px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .titolo-mostra {
+        max-width: 100%;
+        padding: 60px;
+        font-size: 80px;
+    }
+
+    .testo-mostra {
+        max-width: 400px;
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    .sub-mostra {
+        max-width: 100%;
+        margin: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    section.jullien {
+        flex-direction: column;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    section.jullien p {
+        margin-left: 60px;
+        width: 400px;
+        font-size: 14px;
+        padding-left: 100px;
+        padding-top: 20px;
+    }
+
+    .titolo-jj {
+        max-width: 400px;
+        font-size: 80px;
+        align-items: center;
+        padding-top: 60px;
+        padding-left: 130px;
+    }
+
+    section.card-jj {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        padding: 20px 20px;
+        max-width: 100%;
+    }
+
+    section.paul {
+        flex-direction: column;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    section.paul p {
+        margin-left: 90px;
+        width: 400px;
+        font-size: 14px;
+        padding-left: 70px;
+        padding-top: 20px;
+    }
+
+    .titolo-pb {
+        max-width: 400px;
+        font-size: 80px;
+        align-items: center;
+        padding-top: 60px;
+        padding-left: 70px;
+    }
+
+    section.card-pb {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        padding: 20px 20px;
+        max-width: 100%;
+    }
+
+    section.icinori {
+        flex-direction: column;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    section.icinori p {
+        margin-left: 60px;
+        width: 400px;
+        font-size: 14px;
+        padding-left: 100px;
+        padding-top: 20px;
+    }
+
+    .titolo-icinori {
+        max-width: 400px;
+        font-size: 80px;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    section.card-icinori {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        padding: 20px 20px;
+        max-width: 100%;
+    }
+
+    .titolo-info {
+        max-width: 100%;
+        padding: 60px;
+        font-size: 80px;
+    }
+
+    .sub-info {
+        max-width: 100%;
+        margin: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .laboratorio p {
+        max-width: 400px;
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    .informazioni p {
+        max-width: 400px;
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    iframe {
+        margin-left: 20px;
+        width: 90%;
+        height: 50%;
+    }
+
+    footer {
+        font-size: 12px;
+        gap: 10px;
+        max-width: 100%;
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    footer p {
+        margin-top: 35px;
+        max-width: 100%;
+        font-size: 12px;
+    }
+}
